@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(236, 225, 189);
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+h2 {
+    color: green;
+
+}
+span {
+    color: black;
+}
+
+h1 {
+    color: rgb(101, 101, 250);
+    font-family: 'Gothic A1', sans-serif;
+}
+
+a {
+    position: relative;
+    bottom: -10em;
+    text-decoration-line: none;
+}
+

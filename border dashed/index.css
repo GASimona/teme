@@ -1,0 +1,9 @@
+.dashed {
+    background-color: rgb(91, 214, 214);
+    height: 400px;
+    width: 400px;
+    margin: 2em;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: white;
+}
