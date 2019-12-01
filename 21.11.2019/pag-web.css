@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(80, 35, 10);
+    margin: 1em 5em 1em 5em;
+}
+
+/* ------- header --------*/
+
+header h1 {
+    color: white;
+}
+header div {
+    background-color: rgb(65, 28, 8);
+    margin: 0px;
+    padding: 0.5em;
+}
+
+.details {
+    font-size: 0.4em;
+    color: rgb(124, 79, 71);
+}
+.menu {
+    color: rgb(219, 219, 219);
+    padding: 0px 20px 0px 20px;
+    border-left: 0.1em solid rgb(219, 219, 219);
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.menu:first-child {
+    border: 0px;
+}
+
+/* ------- title -------- */
+
+.title {
+    background-color: rgb(109, 175, 134);
+    margin-bottom: 0.5em;
+}
+.title div p {
+    color: rgb(219, 219, 219);
+}
+img {
+    height: 100px;
+    display: inline-block;
+    width: 100px;
+}
+
+div h1 {
+    color: white;
+}
+.title div {
+    display: inline-block;
+    width: calc(100% - 200px);
+}
+
+/* -------- container -------- */
+
+.container {
+    height: 700px;
+}
+
+.menuLeft {
+    background-color: rgba(70, 148, 158, 0.767);
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.menuLeft a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+    margin: 1em;
+    border-bottom: 0.001em solid rrgb(219, 219, 219); 
+}
+.menuLeft a:last-child {
+    border: 0px;
+}
+
+.content {
+    background-color: navajowhite;
+    position: relative;
+    width: 80%;
+    float: left;
+    height: 100%;
+}
+.content h2 {
+    color:  rgba(53, 110, 117, 0.767);
+}
+.content h2, .content p {
+    padding: 0em 2em;
+}
