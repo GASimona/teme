@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    margin-left: 20%;
+    text-align: left;
+}
+div {
+    color: rgb(150, 150, 150);
+    margin-left: 20%;
+    text-align: left;
+}
+input, textarea{
+    font-size: 1.5em;
+    width: 60%;
+    border: 0;
+    color: rgb(190, 190, 190);
+    border-bottom: 2px solid rgb(190, 190, 190);
+    padding: 0.5em  0em;
+    margin-bottom: 1em;
+}
+
+textarea {
+    height: 100px;
+}
+.button {
+    width: 40%;
+    background-image: linear-gradient(to right, rgb(174, 17, 189), rgb(255, 0, 0));
+    padding: 0.5em;
+    border-radius: 100px;
+}
