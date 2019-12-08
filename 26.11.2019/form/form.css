@@ -1,4 +1,9 @@
-button {
-    cursor: pointer;
-    background-color: grey;
+div {
+    padding-bottom: 1em;
+}
+
+.button {
+    background-color: rgb(221, 221, 221);
+    padding: 0.5em;
+    border: 1px solid grey;
 }
