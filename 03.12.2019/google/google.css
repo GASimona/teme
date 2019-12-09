@@ -1,0 +1,33 @@
+
+body {
+    text-align: center;
+}
+img {
+    width: 20em;
+    padding-top: 20% 
+}
+.search {
+    width: 50%;
+    margin: 10px 25%;
+    padding: 0.5em;
+    box-shadow: 0px 5px 10px #888888;
+    font-size: 1.5em;
+    border: 0.5px solid #e2e2e2;
+}
+
+.button {
+    width: 15%;
+    margin: 1em;
+    height: 2.5em;
+    background-color: #e2e2e2;
+    box-shadow: none;
+    border: 0px;
+    border-radius: 4px;
+    color: #5f5f5f;
+    font-size: 1em;
+    font-family: 'Alatsi', sans-serif;
+}
+
+.button:hover {
+    border: 1px solid #888888;
+}
