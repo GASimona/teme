@@ -1,7 +1,9 @@
 for (i = 1; i < 10; i++) {
     for (j = 1; j < 10; j++) {
-        document.write(i + " * " + j + " = " + i * j);
-        document.write("<br>");
+        document.write(j + " * " + i + " = " + i * j + " ");
+        document.write(" " + " " + " ");
+        // document.write("<br>");
     }
-    document.write("<br>");
+    // document.write("<br>");
+    document.writeln();
 }
