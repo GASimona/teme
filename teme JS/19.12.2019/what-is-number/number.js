@@ -14,6 +14,9 @@ function incercari() {
     verifica(nr);
     incercariRamase--;
     document.getElementById("nrIncercari").innerHTML = incercariRamase;
+    if (incercariRamase == 0) {
+        document.getElementById("verificare").innerHTML = "Numarul era = " + nrCautat;
+    }
 
 }
 
